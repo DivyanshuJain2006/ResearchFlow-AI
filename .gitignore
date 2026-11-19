@@ -1,0 +1,15 @@
+cat > .gitignore << 'EOF'
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.langgraph_api/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+__MACOSX/
+build/
+dist/
+EOF
